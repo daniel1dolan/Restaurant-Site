@@ -25,11 +25,17 @@
 
   <body>
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark stick-top">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark stick-top">
           <!-- Brand -->
-          <a class="navbar-brand" href="#"><img src="photos/d7.logo.jpeg" class="img-fluid mx-auto" alt="Logo-D7"></a>
+          <a class="navbar-brand" href="#"><img src="photos/d7.logo.jpeg" class="img-fluid mx-auto"  style="max-width: 300px;" alt="Logo-D7"></a>
+
+          <!-- Toggler/collapse Button-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         
           <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="#BaB">Bar and Bistro</a>
@@ -59,6 +65,7 @@
             <!-- Dropdown -->
             
           </ul>
+        </div>
         </nav>
         </div>
         <div class="video position-relative">
@@ -66,7 +73,7 @@
             class="embed-responsive embed-responsive-16by9 position-absolute positionTop z1"
           >
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vcfNpDtVqOw?autoplay=1&loop=1"; frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; loop" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vcfNpDtVqOw?autoplay=1&mute=1&loop=1&playlist=vcfNpDtVqOw"; frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; loop" allowfullscreen></iframe>
 
           </div>
           <div class="opLayer position-absolute positionTop z10"></div>
@@ -100,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="row section h-100 w-100 bg-LBlue jumptarget" id="grills">
+      <div class="row section h-100 w-100 bg-LBlue jumptarget p-0 m-0" id="grills">
       <div class="col-6 p-5 card bg-LBlue">
         <div class="display-4 card-body">
           Table 7 Grill
@@ -119,7 +126,7 @@
         </a>
       </div>
       </div>
-      <div class="row section h-100 w-100 bg-light jumptarget" id="DoM">
+      <div class="row section h-100 w-100 bg-light jumptarget p-0 m-0" id="DoM">
         <div class="row section h-100 w-100 bg-light p-0 m-0">
           <div class="col-6 d-flex align-items-center justify-content-center">
             <a href="http://thedistrictrestaurants.com/" target="_blank">
@@ -140,7 +147,7 @@
         </div>
       </div>
       </div>
-      <div class="row section h-100 w-100 bg-LBlue jumptarget" id="cellar">
+      <div class="row section h-100 w-100 bg-LBlue jumptarget p-0 m-0" id="cellar">
           <div class="col-6 p-5 card bg-LBlue">
             <div class="display-4 card-body">
               District 7 Cellar
@@ -160,7 +167,7 @@
           </div>
           </div>
       
-      <div class="row section h-100 w-100 bg-light jumptarget" id="bistro">
+      <div class="row section h-100 w-100 bg-light jumptarget p-0 m-0" id="bistro">
             <div class="col-6 d-flex align-items-center justify-content-center">
               <a href="http://table7bistro.com/" target="_blank">
                 <img
@@ -181,7 +188,7 @@
         </div>
         </div>
       </div>
-      <div class="row section h-100 w-100 bg-LBlue jumptarget" id="tp">
+      <div class="row section h-100 w-100 bg-LBlue jumptarget p-0 m-0" id="tp">
         <div class="col-6 p-5 align-items-center justify-text-center card bg-LBlue">
           <div class="display-4 card-body">
             District Tacos & Pizzas
@@ -204,6 +211,16 @@
     </div>
 
     </div>
+    <div class="d-flex sticky-bottom align-items-center">
+      <div class="col-6">
+        Contact us
+      </div>
+      <div class="col-6">
+Footer
+      </div>
+      
+    </div>
+    
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
